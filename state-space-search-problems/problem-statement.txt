@@ -1,6 +1,9 @@
 State Space Search Problems
 
-This challenge is to calculate how to measure 4 liters of water with just two unevenly sized buckets, one of 3 liters and another of 5 liters, in minimum number of steps. To extend and generalize this, write a program to evaluate the minimum number of steps to measure “X” liters of water, with “Y” buckets each having a separate denomination.
+This challenge is to calculate how to measure 4 liters of water with just two unevenly sized buckets, 
+one of 3 liters and another of 5 liters, in minimum number of steps. 
+To extend and generalize this, write a program to evaluate the minimum number of steps to measure “X” liters of water, 
+with “Y” buckets each having a separate denomination.
 
 Assumptions:
 

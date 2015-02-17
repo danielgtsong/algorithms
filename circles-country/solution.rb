@@ -1,5 +1,3 @@
-# http://community.topcoder.com/stat?c=problem_statement&pm=10297
-
 def leastBorders( x_array, y_array, r_array, x1, y1, x2, y2)
 	index = 0
 	count = 0
