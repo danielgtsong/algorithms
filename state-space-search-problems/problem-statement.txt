@@ -1,0 +1,38 @@
+State Space Search Problems
+
+This challenge is to calculate how to measure 4 liters of water with just two unevenly sized buckets, one of 3 liters and another of 5 liters, in minimum number of steps. To extend and generalize this, write a program to evaluate the minimum number of steps to measure “X” liters of water, with “Y” buckets each having a separate denomination.
+
+Assumptions:
+
+Each bucket used for measuring water should be unique in denomination and the number of buckets will be <= 3
+The target amount to be reached has to finally reside in a single bucket (at the end of the measuring activity).
+The bucket capacities and target amount will be <= 99
+If there are multiple ways to measure the same amount, only one single way, having the minimum number of steps is required.
+Ties will be broken by the smallest program.
+
+Examples:
+
+2, 4 , 6, 5
+
+2,3,5,4
+Implies that there are 2 buckets of capacity 3 liters and 5 liters each and the target amount desired is 4 liters.
+
+3,4,6,9,7
+Implies that there are 3 buckets of capacity 4 liters, 6 liters and 9 liters each and the target amount desired is 7 liters.
+
+Answers:
+
+2 buckets, 3 liter bucket, 5 liter bucket, 4 liters desired
+Fill 5 liter bucket to capacity
+Move 5 liter bucket to 3 liter bucket 
+Empty 3 liter bucket
+Move 5 liter bucket to 3 liter bucket
+Fill 5 liter bucket
+Move 5 liter bucket to 3 liter bucket
+
+3,4,6,9,7
+Fill 4
+Move 4 to 6
+Fill 9
+Move 9 to 6
+
